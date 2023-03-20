@@ -11,7 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, unhealthymod.MODID);
 
-    public static final RegistryObject<Item> FORCE_WRENCH = ITEMS.register("force_wrench"
+    public static final RegistryObject<Item> FORCE_WRENCH = ITEMS.register("force_wrench")
     () -> new Item(new Item.Properties()))
 
     public static void register(IEventBus eventBus) {
